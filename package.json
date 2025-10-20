@@ -1,0 +1,12 @@
+{
+  "name": "mommy-milk-bar",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Monorepo for Mommy Milk Bar: mobile app (Expo) and marketing website (Next.js)",
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "dev:mobile": "npm --workspace apps/mobile run start",
+    "dev:web": "npm --workspace apps/website run dev",
+    "build:web": "npm --workspace apps/website run build"
+  }
+}
